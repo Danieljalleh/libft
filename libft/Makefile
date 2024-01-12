@@ -6,13 +6,14 @@
 #    By: djalleh <djalleh@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/01 18:42:18 by djalleh           #+#    #+#              #
-#    Updated: 2023/11/21 20:55:26 by djalleh          ###   ########.fr        #
+#    Updated: 2024/01/12 14:48:13 by djalleh          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 FILES			= ft_isalpha ft_isdigit ft_isalnum ft_isascii ft_isprint\
 				 ft_strlen ft_memset ft_bzero ft_memcpy ft_memmove ft_strlcpy\
-				 ft_strlcat\
+				 ft_strlcat ft_toupper ft_tolower ft_strchr ft_strrchr\
+				 ft_strncmp ft_memchr ft_memcmp ft_strnstr ft_atoi\
 
 SRCS			=$(FILES:%=%.c)
 
